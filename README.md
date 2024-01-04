@@ -36,11 +36,11 @@ Nesse sentido, adotamos a metodologia _leave out one_ que consiste em predizer o
 Importa bibliotecas necessárias, como pandas, numpy, matplotlib, e vários modelos de machine learning do scikit-learn.
 
 2. **Leitura de Dados:**
-Lê dois conjuntos de dados: "POIs.csv" e "dataset_soma_ocorr_2022.csv".
+Lê dois conjuntos de dados: "dataset_features_users_POIs.csv" e "dataset_soma_ocorr_2022.csv".
 Realiza algumas operações de pré-processamento nos dados.
 
 3. **Random Forest:**
-Utiliza o modelo RandomForestRegressor para prever as ocorrências criminais usando as características fornecidas em "POIs.csv".
+Utiliza o modelo RandomForestRegressor para prever as ocorrências criminais usando as características fornecidas em "dataset_features_users_POIs.csv".
 Usa a técnica de validação cruzada Leave-One-Out (LOO) para avaliar o desempenho do modelo.
 
 4. **Support Vector Machine**
@@ -49,11 +49,11 @@ Adiciona características de usuários ao conjunto de dados.
 Usa LOO para validação cruzada.
 
 5. **Gradient Boosting Regressor:**
-Utiliza o modelo Gradient Boosting Regressor para prever as ocorrências criminais usando as características fornecidas em "POIs.csv".
+Utiliza o modelo Gradient Boosting Regressor para prever as ocorrências criminais usando as características fornecidas em "dataset_features_users_POIs.csv".
 Usa LOO para validação cruzada.
 
 6. **K-Nearest Neighbors:**
-Utiliza o modelo K-Nearest Neighbors (KNN) para prever as ocorrências criminais usando as características fornecidas em "POIs.csv".
+Utiliza o modelo K-Nearest Neighbors (KNN) para prever as ocorrências criminais usando as características fornecidas em "dataset_features_users_POIs.csv".
 Usa LOO para validação cruzada.
 
 7. **Salvando Resultados:**
