@@ -1,6 +1,5 @@
-
 1. **Tweets** 
-    Os tweets foram coletados com a APIv2 do Twitter utilizando a biblioteca _tweepy_ e resulta nos arquivos CSVs no diretório [tweets coletados](https://github.com/LABPAAD/crimes_prediction/blob/main/Datasets/tweets_coletados). Em [Coleta de Tweets](https://github.com/LABPAAD/crimes_prediction/blob/main/Codes/coleta_tweets.ipynb) contém o código utilizado para gerar os arquivos CSVs.
+    Os tweets foram coletados com a APIv2 do Twitter utilizando a biblioteca _tweepy_. Em [Coleta de Tweets](https://github.com/LABPAAD/crimes_prediction/blob/main/Codes/coleta_tweets.ipynb) contém o código utilizado para gerar os arquivos CSVs.
 
     [!IMPORTANT] São necessários os arquivos do diretorio "Datasets/mapas" para poder ser feita a coleta.
 
