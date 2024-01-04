@@ -33,10 +33,13 @@ Original file is located at
 * Calcular Média de MAE, RAE, R2 para tipo de crime k
 
 """
+<<<<<<< HEAD
 
 from google.colab import drive
 drive.mount('/content/drive')
 
+=======
+>>>>>>> 272a0c3 (Predição de Crimes)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -449,4 +452,8 @@ metricas["MAE"] = media_mae
 metricas["R2"] = media_r2
 
 
+<<<<<<< HEAD
 metricas.to_csv("/content/drive/MyDrive/courb2/CSVs/metricas_KNN_82areas_POIs_users_22a23.csv")
+=======
+# metricas.to_csv("/content/drive/MyDrive/courb2/CSVs/metricas_KNN_82areas_POIs_users_22a23.csv")
+>>>>>>> 272a0c3 (Predição de Crimes)
